@@ -17,25 +17,33 @@ What is it, what does it offer and why would you use it?
 <h2 align="center" id="TOC">Table of Contents</h2>
 
 * [Astronauts for Autism](#)
-    - [Introduction](#introduction)
-    - [Table of Contents](#TOC)
-    - [Project Ouline](#project-outline)
+  - [Introduction](#introduction)
+  - [Table of Contents](#TOC)
+  - [Project Ouline](#project-outline)
 * [Project Planning](#project-planning)
-    - [UX Design](#ux-design)
-        - [Strategy](#ux-strategy)
-        - [Scope](#ux-scope)
-        - [Structure](#ux-structure)
-        - [Skeleton](#ux-skeleton)
-        - [Surface](#ux-surface)
+  - [UX Design](#ux-design)
+      - [Strategy](#ux-strategy)
+      - [Scope](#ux-scope)
+      - [Structure](#ux-structure)
+      - [Skeleton](#ux-skeleton)
+      - [Surface](#ux-surface)
+* [Features](#features)
+  - [General Features](#general-features)
+  - [Future Implementations](#future-implementations)
+  - [Accessibility](#accessibility)
 * [Built With](#)
-    - [Technology and Languages](#technologies-and-languages)
-    - [Libraries and Frameworks](#libraries-and-frameworks)
-    - [Tools & Programs](#tools-and-programs)
+  - [Technology and Languages](#technologies-and-languages)
+  - [Libraries and Frameworks](#libraries-and-frameworks)
+  - [Tools & Programs](#tools-and-programs)
+* [Development and Deployment](#development-and-deployment)
+  - [Development](#development)
+  - [Deployment](#deployment)
+* [Testing](#testing)
 * [Credits](#credits)
-    - [Code](#code)
-    - [Content Research](#content-research)
-    - [Media](#media)
-    - [Acknowledgements](#acknowledgements)
+  - [Code](#code)
+  - [Content Research](#content-research)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
@@ -62,6 +70,17 @@ What is it, what does it offer and why would you use it?
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
+## Features
+
+### General Features
+
+### Future Implementations
+
+### Accessibility
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
 ## Built With
 
 ### Technologies and Languages
@@ -81,6 +100,20 @@ What is it, what does it offer and why would you use it?
 ### Tools and Programs
 <a href="https://affinity.serif.com/en-gb/" target="_blank">![Static Badge](https://img.shields.io/badge/Affinity-Photo%202-grey?logo=affinityphoto&logoColor=%23ffffff&color=%234E3188)</a>
 <a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+## Development and Deployment
+
+### Development
+
+### Deployment
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+## Testing
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
