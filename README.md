@@ -1,6 +1,7 @@
 # Astronauts for Autism
 
-<a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank"><img src="/documentation/images/afa-project-banner.webp" alt="Atronauts for Autism project banner" style="max-width: 100%;"></a>
+![Astronauts for Autism - Project Banner](/documentation/images/afa-project-banner.webp)
+
 
 <p align="center">
 <a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Live Project</a> | 
@@ -22,13 +23,10 @@ The live project can found here: <a href="https://therickyroy.github.io/astronau
   - [Table of Contents](#TOC)
   - [Project Ouline](#project-outline)
 * [Project Planning](#project-planning)
-  - [Colors](#colors)
-  - [UX Design](#ux-design)
-      - [Strategy](#ux-strategy)
-      - [Scope](#ux-scope)
-      - [Structure](#ux-structure)
-      - [Skeleton](#ux-skeleton)
-      - [Surface](#ux-surface)
+    - [UX Design](#ux-design)
+      - [Colors](#colors)
+      - [Fonts](#fonts)
+      - [User Stories](#user-stories)
 * [Features](#features)
   - [General Features](#general-features)
   - [Future Implementations](#future-implementations)
@@ -37,9 +35,7 @@ The live project can found here: <a href="https://therickyroy.github.io/astronau
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools & Programs](#tools-and-programs)
-* [Development and Deployment](#development-and-deployment)
-  - [Development](#development)
-  - [Deployment](#deployment)
+* [Development](#deployment)
 * [Testing](#testing)
 * [Credits](#credits)
   - [Code](#code)
@@ -56,10 +52,15 @@ Astronauts for Autism is a fictional organisation dedicated to the support of au
 
 The final deliverable as well as fulfilling the content requirements is responsive to modern device standards, adheres to accessibility requirements and is aesthetically pleasing with a focus on the needs and well-being of in the intended end-user.
 
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+### Key Objectives
 
-## Project Planning
+- A positive and appropriate user experience for autistic children and families utilising effective navigation and layout
+- Clear and concise presentation of content with easy to navigate options for additional information 
+- Responsive design that adheres to all necessary standards and accessibility requirements
+- Effective use of color and imagery ensuring consideration for the well-being of the end user
+- Inclusion of user-initiated actions providing immediate feedback
+
+## UX Design
 
 ## Colors
 
@@ -76,19 +77,39 @@ Deep Sky Blue #30C5FF | Pink Lavender #E4B7E5 | Russian Violet #381A46 | Spring 
 
 ![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
 
-Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/workspace/astronauts-for-autism/documentation/research.md).
+Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/astronauts-for-autism/documentation/research.md)
 
-## UX Design
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
-### UX Strategy
+## Fonts
 
-### UX Scope
+As with color, font was a big consideration for ensuring a positive user experience whilst visiting the page.<br>
+Two sans-serif fonts were selected for the project, and implemented via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
-### UX Structure
+[Fredoka](https://fonts.google.com/specimen/Fredoka) serves as playful font to be used within logos, headings other page elements of significance.
 
-### UX Skeleton
+[Prompt](https://fonts.google.com/specimen/Prompt) is to be used as the primary content font ensuring ease of readability and complementing the Fredoka font choice. 
 
-### UX Surface
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+### User Stories 
+
+As a parent, I want to know the safeguarding measures in place so I can feel confident knowing my child will be safe during their guided sessions.
+
+As a parent, I want to easily find additional resources to support my child knowing these will be similar to what they have already learned within the sessions to prevent confusion and frustration. 
+
+As a child, I want to find resources that help me when I am feeling overwhelmed. 
+
+As a child, I want to be able to talk to someone when I am scared and need help.
+
+As a staff member, I want to be able to reassure children and parents that we provide a safe environment. 
+
+As a staff member, I want to be able to provide an easy point of access to resources to supplement our sessions.
+
+As a staff member, I want to provide an easy and secure method of communication, which may also include anonymity to protect those that feel unsafe. 
+
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
@@ -97,9 +118,9 @@ Due to the potential impact of color on autistic persons, additional research an
 
 ### General Features
 
-### Future Implementations
+The Astronauts for Autism Safeguarding page is designed to provide a clear and concise way to navigate to any necessary information pertaining to safeguarding within their organisation. This is achieved using an easily recognisable navigation bar approach and a well structured approach to content selection. Links to further information, resources and contact information are clear and easy to locate and provde necessary feedback through use of CSS and Bootstrap features.
 
-### Accessibility
+- Navigation
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
@@ -127,11 +148,26 @@ Due to the potential impact of color on autistic persons, additional research an
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
-## Development and Deployment
+## Deployment
 
-### Development
 
-### Deployment
+This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
+
+Setup a repo using this method and template:
+1. Login to your GitHub profile.
+2. Navigate to the Code Institute Full Template
+3. Click the dropdown for 'Use this template' and select "Create a new repository"
+4. Generate the necessary name and description for your repo and clicc 'Create repository from template'
+5. Navigate to the new reop and click the green 'Open' button with the Gitpod logo<br>
+**IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
+6. You can now work on your repository within the Code Institute Gitpod IDE workspace
+
+Once the project repo is created, an early deployment for the live project should performed.<br>
+This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
+
+Additional information on the deployment process can be found on the official [GitHub Docs](https://docs.github.com/en/pages/quickstart)
+
+
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
