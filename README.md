@@ -4,10 +4,7 @@
 
 
 <p align="center">
-<a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Live Project</a> | 
-<a href="#" target="_blank">Link 2</a> | 
-<a href="#" target="_blank">Link 3</a> | 
-<a href="#" target="_blank">Link 4</a> | 
+| <a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Live Project</a> |
 </p>
 
 ## Introduction 
@@ -24,12 +21,13 @@ The live project can found here: <a href="https://therickyroy.github.io/astronau
   - [Project Ouline](#project-outline)
 * [Project Planning](#project-planning)
     - [UX Design](#ux-design)
+      - [User Stories](#user-stories)
       - [Colors](#colors)
       - [Fonts](#fonts)
-      - [User Stories](#user-stories)
+      - [Imagery](#imagery)
+      - [Wireframes](#wireframes)
 * [Features](#features)
   - [General Features](#general-features)
-    - [Wireframes](#wireframes)
   - [Future Implementations](#future-implementations)
   - [Accessibility](#accessibility)
 * [Built With](#built-with)
@@ -63,39 +61,7 @@ The final deliverable as well as fulfilling the content requirements is responsi
 
 ## UX Design
 
-## Colors
-
-Color selection is a key component to any design process, however with the nature of the project this consideration is even greater due to the needs of the end user and the potential for negatively impacting their well-being. 
-
-The artwork and color selection thus played a integral part in the design of this project as they were essential in creating a welcoming and appropriate page for the end user and their specific needs. After much research and inspiration, combining general color theory, autistic specific color theory, my own personal experience of working with autistic children and adults, as well as feedback, I was able to determine an appropriate color scheme that is aesthetically pleasing whilst being both calming and engaging. 
-
-To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
-Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
-
-**Main Palette**
-
-Deep Sky Blue #30C5FF | Pink Lavender #E4B7E5 | Russian Violet #381A46 | Spring Green #21F383 | Vanilla #EEEEA2
-
-![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
-
-Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/astronauts-for-autism/documentation/research.md)
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Fonts
-
-As with color, font was a big consideration for ensuring a positive user experience whilst visiting the page.<br>
-Two sans-serif fonts were selected for the project, and implemented via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
-
-[Fredoka](https://fonts.google.com/specimen/Fredoka) serves as playful font to be used within logos, headings other page elements of significance.
-
-[Prompt](https://fonts.google.com/specimen/Prompt) is to be used as the primary content font ensuring ease of readability and complementing the Fredoka font choice. 
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-### User Stories 
+## User Stories 
 
 As a parent, I want to know the safeguarding measures in place so I can feel confident knowing my child will be safe during their guided sessions.
 
@@ -114,18 +80,41 @@ As a staff member, I want to provide an easy and secure method of communication,
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
-### Wireframes
+## Colors
 
-These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experiende design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well structured content and a responsive design. 
+Color selection is a key component to any design process, however with the nature of the project this consideration is even greater due to the needs of the end user and the potential for negatively impacting their well-being. 
+
+The artwork and color selection thus played a integral part in the design of this project as they were essential in creating a welcoming and appropriate page for the end user and their specific needs. After much research and inspiration, combining general color theory, autistic specific color theory, my own personal experience of working with autistic children and adults, as well as feedback, I was able to determine an appropriate color scheme that is aesthetically pleasing whilst being both calming and engaging. 
+
+To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
+Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
+
+**Main Palette**
+
+Deep Sky Blue #30C5FF | Pink Lavender #E4B7E5 | Russian Violet #381A46 | Spring Green #21F383 | Vanilla #EEEEA2
+
+![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
+
+Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/documentation/research.md).
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
-## Features
+## Fonts
 
-### General Features
+As with color, font was a big consideration for ensuring a positive user experience whilst visiting the page.<br>
+Two sans-serif fonts were selected for the project, and implemented via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
-These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experience design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well-structured content and a responsive design. 
+[Fredoka](https://fonts.google.com/specimen/Fredoka) serves as playful font to be used within logos, headings other page elements of significance.
+
+[Prompt](https://fonts.google.com/specimen/Prompt) is to be used as the primary content font ensuring ease of readability and complementing the Fredoka font choice. 
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+### Wireframes
+
+These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experiende design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well structured content and a responsive design. 
 
 **Mobile Wireframe**
 ![Mobile Wireframe](/documentation/images/wireframe-mobile.webp)
@@ -136,6 +125,18 @@ These low-fidelity wireframes have been created using [Balsamiq](https://balsami
 **Desktop Wireframes**
 ![Desktop Wireframe 1](/documentation/images/wireframe-desktop-1.webp)
 ![Desktop Wireframe 2](/documentation/images/wireframe-desktop-2.webp)
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+## Imagery
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+## Features
+
+### General Features
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
