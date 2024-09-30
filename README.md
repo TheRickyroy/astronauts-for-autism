@@ -68,7 +68,7 @@ Color selection is a key component to any design process, however with the natur
 The artwork and color selection thus played a integral part in the design of this project as they were essential in creating a welcoming and appropriate page for the end user and their specific needs. After much research and inspiration, combining general color theory, autistic specific color theory, my own personal experience of working with autistic children and adults, as well as feedback, I was able to determine an appropriate color scheme that is aesthetically pleasing whilst being both calming and engaging. 
 
 To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
-Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer)color contrast tools were used to corroborate these results.
+Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
 
 **Main Palette**
 
@@ -76,7 +76,7 @@ Deep Sky Blue #30C5FF | Pink Lavender #E4B7E5 | Russian Violet #381A46 | Spring 
 
 ![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
 
-Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/workspace/astronauts-for-autism/documentation/images/research.md).
+Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/workspace/astronauts-for-autism/documentation/research.md).
 
 ## UX Design
 
