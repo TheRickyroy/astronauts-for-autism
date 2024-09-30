@@ -1,9 +1,9 @@
 # Astronauts for Autism
 
-<a href="#"><img src="/documentation/images/afa-project-banner.webp" alt="Atronauts for Autism project banner" style="max-width: 100%;"></a>
+<a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank"><img src="/documentation/images/afa-project-banner.webp" alt="Atronauts for Autism project banner" style="max-width: 100%;"></a>
 
 <p align="center">
-<a href="#" target="_blank">Live Project</a> | 
+<a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Live Project</a> | 
 <a href="#" target="_blank">Link 2</a> | 
 <a href="#" target="_blank">Link 3</a> | 
 <a href="#" target="_blank">Link 4</a> | 
@@ -11,12 +11,13 @@
 
 ## Introduction 
 
-The introduction should include one to three sentences providing an overview of the project.
-What is it, what does it offer and why would you use it?
+Astronauts for Autism is my first assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about safeguarding.
+
+The live project can found here: <a href="https://therickyroy.github.io/astronauts-for-autism/" target="_blank">Astronauts for Autism</a>
 
 <h2 align="center" id="TOC">Table of Contents</h2>
 
-* [Astronauts for Autism](#)
+* [Astronauts for Autism](#astronauts-for-autism)
   - [Introduction](#introduction)
   - [Table of Contents](#TOC)
   - [Project Ouline](#project-outline)
@@ -31,7 +32,7 @@ What is it, what does it offer and why would you use it?
   - [General Features](#general-features)
   - [Future Implementations](#future-implementations)
   - [Accessibility](#accessibility)
-* [Built With](#)
+* [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools & Programs](#tools-and-programs)
@@ -49,6 +50,10 @@ What is it, what does it offer and why would you use it?
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
 ## Project Outline
+
+Astronauts for Autism is a fictional organisation dedicated to the support of autistic children and their families, with a primary focus on education and learning during weekly guided sessions. The page developed as part of this project documents the organisation's safeguarding policies and practices whilst offering information, support and contact options for children and parents alike.
+
+The final deliverable as well as fulfilling the content requirements is responsive to modern device standards, adheres to accessibility requirements and is aesthetically pleasing with a focus on the needs and well-being of in the intended end-user.
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
