@@ -131,6 +131,29 @@ These low-fidelity wireframes have been created using [Balsamiq](https://balsami
 
 ## Imagery
 
+The image selection became a key influence in the design of the overall project, including naming and branding.
+
+With the requirements of the end user in mind, I sought out images that would fulfil specific criteria;
+- Strong thematic link that could be used for branding purposes
+- Easily identifiable and appealing to the target audience
+- Promote inclusivity
+- Have wide variety for appropriate use and relevance across project
+- Adhere to color research to maintain user well-being
+
+After seeking out many options including animal images in the same style, I opted to use the Astronaut.
+
+This selection of images fulfilled the criteria set out and offered inspiration further inspiration. 
+- Astronaut character maintains consistent theme and works well as brand image and name
+- Usage of the same character makes the images eaily identifiable and has a fun and playful appeal
+- Adopting research that has been applied to comic book superheroes, the use of a mask to hide identity allows the character to adopt universal representation and inclusivity
+- The images available using this character was great in number (more than included here) which would allow for relevant inclusion across the project and future implementation
+- The images not only adhered to the color requirements, but also informed minor adjustments to the color palette
+
+Before implementing the images into the project I used [Affinity Photo 2](https://affinity.serif.com/en-gb/photo/) to make some minor adjustments. This included removing background colors, removing hearts that felt inappropriate to the end user and converting them to webp formatting to follow current standards.
+
+![Astronaut Images](/documentation/images/images.gif)
+- Astronaut Artwork: Designed by [Freepik](http://www.freepik.com/) - Following [Attributation Policy](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US)
+
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
