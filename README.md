@@ -114,7 +114,7 @@ Two sans-serif fonts were selected for the project, and implemented via [Google 
 
 ### Wireframes
 
-These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experiende design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well structured content and a responsive design. 
+These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experience design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well structured content and a responsive design. 
 
 **Mobile Wireframe**
 ![Mobile Wireframe](/documentation/images/wireframe-mobile.webp)
@@ -142,7 +142,7 @@ With the requirements of the end user in mind, I sought out images that would fu
 
 After seeking out many options including animal images in the same style, I opted to use the Astronaut.
 
-This selection of images fulfilled the criteria set out and offered inspiration further inspiration. 
+This selection of images fulfilled the criteria set out and offered further inspiration. 
 - Astronaut character maintains consistent theme and works well as brand image and name
 - Usage of the same character makes the images eaily identifiable and has a fun and playful appeal
 - Adopting research that has been applied to comic book superheroes, the use of a mask to hide identity allows the character to adopt universal representation and inclusivity
@@ -183,6 +183,8 @@ Before implementing the images into the project I used [Affinity Photo 2](https:
 ### Tools and Programs
 <a href="https://affinity.serif.com/en-gb/" target="_blank">![Static Badge](https://img.shields.io/badge/Affinity-Photo%202-grey?logo=affinityphoto&logoColor=%23ffffff&color=%234E3188)</a>
 <a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+<a href="https://ezgif.com/maker" target="_blank">![Static Badge](https://img.shields.io/badge/Ezgif-GIF_Maker-grey?logoColor=%23ffffff&color=%23ffffff)</a>
+
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
@@ -196,8 +198,8 @@ Setup a repo using this method and template:
 1. Login to your GitHub profile.
 2. Navigate to the Code Institute Full Template
 3. Click the dropdown for 'Use this template' and select "Create a new repository"
-4. Generate the necessary name and description for your repo and clicc 'Create repository from template'
-5. Navigate to the new reop and click the green 'Open' button with the Gitpod logo<br>
+4. Generate the necessary name and description for your repo and click 'Create repository from template'
+5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
 **IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
 6. You can now work on your repository within the Code Institute Gitpod IDE workspace
 
@@ -236,7 +238,7 @@ The additional [research](/documentation/research.md) has been compiled into lis
 
 ### Acknowledgements
 
-- Rhiannon and Jessiefor for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
+- Rhiannon and Jessie for for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
