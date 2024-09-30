@@ -22,6 +22,7 @@ The live project can found here: <a href="https://therickyroy.github.io/astronau
   - [Table of Contents](#TOC)
   - [Project Ouline](#project-outline)
 * [Project Planning](#project-planning)
+  - [Colors](#colors)
   - [UX Design](#ux-design)
       - [Strategy](#ux-strategy)
       - [Scope](#ux-scope)
@@ -59,6 +60,23 @@ The final deliverable as well as fulfilling the content requirements is responsi
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
 ## Project Planning
+
+## Colors
+
+Color selection is a key component to any design process, however with the nature of the project this consideration is even greater due to the needs of the end user and the potential for negatively impacting their well-being. 
+
+The artwork and color selection thus played a integral part in the design of this project as they were essential in creating a welcoming and appropriate page for the end user and their specific needs. After much research and inspiration, combining general color theory, autistic specific color theory, my own personal experience of working with autistic children and adults, as well as feedback, I was able to determine an appropriate color scheme that is aesthetically pleasing whilst being both calming and engaging. 
+
+To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
+Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer)color contrast tools were used to corroborate these results.
+
+**Main Palette**
+
+Deep Sky Blue #30C5FF | Pink Lavender #E4B7E5 | Russian Violet #381A46 | Spring Green #21F383 | Vanilla #EEEEA2
+
+![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
+
+Due to the potential impact of color on autistic persons, additional research and feedback was sought out in order to ensure an appropriate selection was made for this project. Resources consulted can be found in the documentation for additional [research](/workspace/astronauts-for-autism/documentation/images/research.md).
 
 ## UX Design
 
