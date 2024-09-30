@@ -29,6 +29,7 @@ The live project can found here: <a href="https://therickyroy.github.io/astronau
       - [User Stories](#user-stories)
 * [Features](#features)
   - [General Features](#general-features)
+    - [Wireframes](#wireframes)
   - [Future Implementations](#future-implementations)
   - [Accessibility](#accessibility)
 * [Built With](#built-with)
@@ -110,6 +111,12 @@ As a staff member, I want to be able to provide an easy point of access to resou
 
 As a staff member, I want to provide an easy and secure method of communication, which may also include anonymity to protect those that feel unsafe. 
 
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+### Wireframes
+
+These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experiende design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well structured content and a responsive design. 
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
@@ -118,9 +125,17 @@ As a staff member, I want to provide an easy and secure method of communication,
 
 ### General Features
 
-The Astronauts for Autism Safeguarding page is designed to provide a clear and concise way to navigate to any necessary information pertaining to safeguarding within their organisation. This is achieved using an easily recognisable navigation bar approach and a well structured approach to content selection. Links to further information, resources and contact information are clear and easy to locate and provde necessary feedback through use of CSS and Bootstrap features.
+These low-fidelity wireframes have been created using [Balsamiq](https://balsamiq.com/) to define the key feature layout to guide the user experience design. Utilising the [Bootstrap](https://getbootstrap.com/) framework and available components allows for the construction of a page that feels familiar for ease of navigation whilst also allowing for well-structured content and a responsive design. 
 
-- Navigation
+**Mobile Wireframe**
+![Mobile Wireframe](/documentation/images/wireframe-mobile.webp)
+
+**Tablet Wireframe**
+![Tablet Wireframe](/documentation/images/wireframe-tablet.webp)
+
+**Desktop Wireframes**
+![Desktop Wireframe 1](/documentation/images/wireframe-desktop-1.webp)
+![Desktop Wireframe 2](/documentation/images/wireframe-desktop-2.webp)
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
@@ -186,9 +201,18 @@ Supplemental learning resources:
 
 ### Content Research
 
+Due to the nature of the content within this project I was taken down many avenues of research, in part for specifics regarding the content, but also as part of my own personal development and continued learning on how to apply learning objectives to research methodologies. 
+
+The additional [research](/documentation/research.md) has been compiled into list and can be found within the documentation folder of this repo. 
+
 ### Media
 
+- Astronaut Artwork: Designed by [Freepik](http://www.freepik.com/) - Following [Attributation Policy](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US)
+- Static badges for README documentation [Shields.io](https://shields.io/badges/static-badge) & [Simple Icons](https://simpleicons.org/)
+
 ### Acknowledgements
+
+- Rhiannon and Jessiefor for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
