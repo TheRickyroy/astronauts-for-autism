@@ -55,8 +55,8 @@
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Ensuring safety and well-being</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-green btn-lg px-4 gap-3"><a href="#section-child" alt="I Am A Child Button">I'm A Child</a></button>
-          <button type="button" class="btn btn-pink btn-lg px-4"><a href="#section-parent" alt="I Am A Parent Button">I'm A Parent</a></button>
+          <a href="#section-child" alt="I Am A Child Button"><button type="button" class="btn btn-green btn-lg px-4 gap-3">I'm A Child</button></a>
+          <a href="#section-parent" alt="I Am A Parent Button"><button type="button" class="btn btn-pink btn-lg px-4">I'm A Parent</button></a>
         </div>
       </div>
     </div>
@@ -64,28 +64,28 @@
     <!-- Children -->
     <section class="section-info-cards pb-5" id="section-child">
       <div class="container">
-        <h2 class="text-center fs-1 py-3">For Astronauts</h2>
+        <h2 class="text-center fs-1 pt-3">For Astronauts</h2>
       <div class="row d-flex justify-content-center">
-        <div class="col-md-4 col-sm-6 col-12">
+        <div class="col-md-4 col-sm-6 col-12 pt-3">
           <div class="card card-1">
             <img src="assests/images/help.webp" class="card-img-top" alt="Astronaut Neeeding Help">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Need Help?</h3>
-              <p class="card-text">Whether big or small, help is always available.</p>
-              <p class="card-text">Speak to any member of team today.</p>
+              <p>Whether big or small, the AFA team is always here to help.</p>
+              <p>Please speak to any member of team today.</p>
               <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#talkModal">
                 Talk With Us
               </button>
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-12">
+        <div class="col-md-4 col-sm-6 col-12 pt-3">
           <div class="card card-2">
             <img src="assests/images/overwhelmed.webp" class="card-img-top" alt="Overwhelmed Astronaut">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Overwhelmed?</h3>
-              <p class="card-text">That's OK, you can take a break at any time.</p>
-              <p class="card-text">Let's try one of the techniques we have learned together.</p>
+              <p>That's OK, you can take a break at any time.</p>
+              <p>Let's try one of the techniques we have learned together.</p>
                 <div class="dropdown">
                   <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Calming Techniques
@@ -99,18 +99,68 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-12">
+        <div class="col-md-4 col-sm-6 col-12 pt-3">
           <div class="card card-3">
             <img src="assests/images/bad.webp" class="card-img-top" alt="Astronaut Behaving Badly">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Bad Behaviour?</h3>
-              <p class="card-text">Have you been made to feel uncomfortable, or scared?</p>
-              <p class="card-text">Speak to a member of team you trust.</p>
-              <a href="#" class="btn btn-purple">Let Us Know</a>
+              <p>Have you, or someone you know been made to feel uncomfortable, or scared?</p>
+              <p>Speak to a member of the team.</p>
+              <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#talkModal">
+                Let Us Know
+              </button>
             </div>
           </div>
         </div>
       </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 col-sm-6 col-12 pt-3">
+            <div class="card card-2">
+              <img src="assests/images/gaming.webp" class="card-img-top" alt="Astronaut Giving A thumbs Up Playing With A Games Controller">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="card-title">Stay Safe Online</h3>
+                <ul>
+                  <li>Think before you post</li>
+                  <li>Think about who you are talking to</li>
+                  <li>Never share your password or personal details</li>
+                  <li>Cover your webcam when you aren't using it</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 pt-3">
+            <div class="card card-3">
+              <img src="assests/images/food.webp" class="card-img-top" alt="Astronaut With Pizza">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="card-title">Don't Go Hungry</h3>
+                  <p>Sometimes it can be difficult to eat, but we have to remember how important it is.</p>
+                  <p>If you are going hungry, or have been struggling to eat, come talk to us.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 pt-3">
+            <div class="card card-1">
+              <img src="assests/images/robot.webp" class="card-img-top" alt="Astronaut Being Assisted By Small Robot">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="card-title">Need Advice?</h3>
+                <p>Worried about something, or just need to talk we're always here.</p>
+                <p>If you'd prefer to talk to someone anonymously, we have listed some contacts below.</p>
+                <div class="dropdown">
+                  <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Support Services
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.blackpoolsafeguarding.org.uk/" target="_blank" aria-label="Childline Tel: 0800 1111">Childline Tel: 0800 1111</a></li>
+                    <li><a class="dropdown-item" href="https://www.blackpoolsafeguarding.org.uk/" target="_blank" aria-label="Blackpool Safeguarding Children Tel: 01253 477 299">Blackpool Safeguarding Children Tel: 01253 477 299</a></li>
+                    <li><a class="dropdown-item" href="https://www.nspcc.org.uk/" target="_blank" aria-label="NSPCC Blackpool Tel: 01253 628 170  ">NSPCC Blacpool Tel: 01253 628 170</a></li>
+                    <li><a class="dropdown-item" href="https://www.lancashire.police.uk/help-advice/child-safety/" target="_blank" aria-label="Lancashire Police - Safeguarding Tel: 101 or 999 For Emergencies">Lancashire Police - Safeguarding Tel: 101 or 999 For Emergencies</a></li>
+                    <li><a class="dropdown-item" href="https://www.blackpoolsafeguarding.org.uk/" target="_blank" aria-label="Child Action Northwest Tel: 01254 244 700">Child Action Northwest Tel: 01254 244 700</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </section>
 
@@ -122,20 +172,11 @@
         <div class="col-lg-6 mx-auto">
           <p class="lead">We are committed to providing a safe, supportive and encouraging environment 
             for children and families that protects from harm, abuse and neglect.</p>
-            <p class="lead">Everyone deserves to feel safe, which is why safeguarding is a fundamental part 
+            <p>Everyone deserves to feel safe, which is why safeguarding is a fundamental part 
             of our mission here at Astronauts for Autism.</p>
-            <ul>
-              <h3>Key Policy Points</h3>
-            <li>A designated safeguarding lead (DSL) is present at all sessions</li>
-            <li>We provide ongoing safeguarding training</li>
-            <li>All staff are DBS checked</li>
-            <li>Regular policy updates ensure we follow latest national standards</li>
-          </ul>
             <p>For more information please speak to a member of our team, or alternatively, 
-            you can download a PDF of our Safeguarding Policy below. </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-purple btn-lg px-4"><a href="#" alt="Safeguarding Policies PDF Download">Safeguarding Policy</a></button>
-          </div>
+              you can download a PDF of our Safeguarding Policy below. </p>
+              <a href="#" alt="Safeguarding Policies PDF Download"><button type="button" class="btn btn-purple btn-lg px-4">Safeguarding Policy</button></a>
         </div>
       </div>
     </section>
@@ -144,29 +185,39 @@
 
   <section class="section-info-cards pb-5" id="section-parent">
     <div class="container">
-      <h2 class="text-center fs-1 py-5">For Family</h2>
+      <h2 class="text-center fs-1 pt-3">For Family</h2>
     <div class="row d-flex justify-content-center">
-      <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-2">
-            <img src="assests/images/phone.webp" class="card-img-top" alt="Astronaut On Phone">
+      <div class="col-md-4 col-sm-6 col-12 pt-3">
+          <div class="card card-3">
+            <img src="assests/images/business.webp" class="card-img-top" alt="Astronaut On With Briefcase Waving">
             <div class="card-body d-flex flex-column justify-content-between">
-              <h3 class="card-title">Report Concern</h3>
-              <p class="card-text">Are you concerned about a child's safety or well-being?</p>
-              <p class="card-text">Please speak to a memeber of our team.</p>
-              <p class="card-text">If you believe a child is in danger, call 999 immediately.</p>
-              <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#talkModal">
-                Contact Us
+              <h3 class="card-title">Our Staff</h3>
+              <ul>
+                <li>A designated safeguarding lead (DSL) will be present at all weekly guided sessions.</li>
+                <li>We provide ongoing safeguarding training to all staff.</li>
+                <li>All staff are DBS checked.</li>
+              </ul>
+              <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Team Mambers
               </button>
+              <ul class="dropdown-menu px-3">
+                <li>Team Member - DSL</li>
+                <li>Team Member - DSL</li>
+                <li>Team Member - DSL</li>
+                <li>Team Member - Session Lead</li>
+                <li>Team Member - Session Lead</li>
+                <li>Team Member - Administrator</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-3">
-            <img src="assests/images/resources.webp" class="card-img-top" alt="Astronaut In Cardboard Box">
+        <div class="col-md-4 col-sm-6 col-12 pt-3">
+          <div class="card card-1">
+            <img src="assests/images/unsure.webp" class="card-img-top" alt="Astronaut Displaying Puzzlement">
             <div class="card-body d-flex flex-column justify-content-between">
-              <h3 class="card-title">Resources</h3>
-              <p class="card-text">As well as our weekly guided sessions, we are able to offer additional resources to ensure the well-being of your child and family.</p>
-              <p class="card-text">If you are unable to find the resources and information you need below, please reach out to a member of the AFA team.</p>
+              <h3 class="card-title">What To Look For?</h3>
+              <p>We all have a safeguarding responsibility, but how can we identify issues?</p>
+              <p>Here are some useful resources to help.</p>
                 <div class="dropdown">
                   <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Resources
@@ -180,28 +231,83 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-1">
-            <img src="assests/images/robot.webp" class="card-img-top" alt="Astronaut Being Assisted By Small Robot">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <h3 class="card-title">Additional Support</h3>
-              <p class="card-text">Do you or your family require additional support?</p>
-              <p class="card-text">The AFA team are here to help.</p>
-              <p class="card-text">Alternatively, please contact a trusted organisation below.</p>
-              <div class="dropdown">
+        <div class="col-md-4 col-sm-6 col-12 pt-3">
+          <div class="card card-2">
+            <img src="assests/images/phone.webp" class="card-img-top" alt="Astronaut On Phone">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="card-title">Report Concern</h3>
+                <p>Are you concerned about a child's safety or well-being?</p>
+                <p>Please contact us. Every report will be handled with the utmost confidentiality.</p>
+                <p>If you believe a child is in danger, call 999 immediately.</p>
+                <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#talkModal">
+                  Contact Us
+                </button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 col-sm-6 col-12 pt-3">
+            <div class="card card-2">
+              <img src="assests/images/laptop.webp" class="card-img-top" alt="Astronaut Using A Laptop And Waving">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="card-title">Online Safety</h3>
+                <p>Online safety is becoming incresingly important.</p>
+                <p>Find out what you can to to help protect your child as the browse the web.</p>
                 <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Support Services
+                  Online Safety
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#" target="_blank">Support Contact</a></li>
-                  <li><a class="dropdown-item" href="#" target="_blank">Support Contact</a></li>
-                  <li><a class="dropdown-item" href="#" target="_blank">Support Contact</a></li>
+                  <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
+                  <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
+                  <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
                 </ul>
               </div>
             </div>
           </div>
+          <div class="col-md-4 col-sm-6 col-12 pt-3">
+            <div class="card card-3">
+              <img src="assests/images/resources.webp" class="card-img-top" alt="Astronaut In Cardboard Box">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="card-title">Resources</h3>
+                <p>As well as our weekly guided sessions, we are able to offer additional resources to ensure the well-being of your child and family.</p>
+                <p>If you are unable to find the resources and information you need below, please reach out to a member of the AFA team.</p>
+                  <div class="dropdown">
+                    <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
+                      <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 pt-3">
+            <div class="card card-1">
+              <img src="assests/images/robot.webp" class="card-img-top" alt="Astronaut Being Assisted By Small Robot">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <h3 class="card-title">Safeguarding Support</h3>
+                <p>Do you or your family require additional safeguarding support?</p>
+                <p>The AFA team are here to help.</p>
+                <p>Alternatively, please contact a trusted organisation below.</p>
+                <div class="dropdown">
+                  <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Support Services
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.blackpoolsafeguarding.org.uk/" target="_blank" aria-label="Blackpool Safeguarding Children Tel: 01253 477 299">Blackpool Safeguarding Children Tel: 01253 477 299</a></li>
+                    <li><a class="dropdown-item" href="https://www.nspcc.org.uk/" target="_blank" aria-label="NSPCC Blackpool Tel: 01253 628 170  ">NSPCC Blacpool Tel: 01253 628 170</a></li>
+                    <li><a class="dropdown-item" href="https://www.lancashire.police.uk/help-advice/child-safety/" target="_blank" aria-label="Lancashire Police - Safeguarding Tel: 101 or 999 For Emergencies">Lancashire Police - Safeguarding Tel: 101 or 999 For Emergencies</a></li>
+                    <li><a class="dropdown-item" href="https://www.blackpoolsafeguarding.org.uk/" target="_blank" aria-label="Child Action Northwest Tel: 01254 244 700">Child Action Northwest Tel: 01254 244 700</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
     </div>
   </section>
 
@@ -216,18 +322,18 @@
         <p>Launchpad for Learning</p>
         <p>Our mission at AFA it to provide a safe, supportive and encouraging environment to cultivate learning and socialisaing for children and their families.</p>
         <p>We offer weekly guided group sessions with our expert team.</p>
-        <button type="button" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#talkModal">
+        <button type="button" class="btn btn-footer" data-bs-toggle="modal" data-bs-target="#talkModal">
           Book Your Spot Today
         </button>
       </div>
       <div class="col-3">
         <h5>Links</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#" target="_blank">Home</a></li>
+          <li><a href="#" target="_blank">Home</a></li>
+          <li><a href="#" target="_blank">Home</a></li>
+          <li><a href="#" target="_blank">Home</a></li>
         </ul>
       </div>
       <div class="col-3">
@@ -236,7 +342,7 @@
             <li>Tel: 01234 567 890</li>
             <li>Email: <a href="mailto:someone@example.com">information@afa.fictional</a></li>
           </ul>
-          <button type="button" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#talkModal">
+          <button type="button" class="btn btn-footer" data-bs-toggle="modal" data-bs-target="#talkModal">
             Contact Us
           </button>
       </div>

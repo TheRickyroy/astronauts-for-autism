@@ -35,6 +35,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #30C5FF;
+}
+
 /* Color */
 
 #hero {
@@ -98,22 +102,42 @@ footer a {
     color: #21F383;
 }
 
-.btn-green {
+.btn-green, 
+.btn-footer {
     background-color: #21F383;
 }
 
+
 .btn-pink {
     background-color: #E4B7E5;
-}
-
-.btn-yellow {
-    background-color: #EEEEA2;
 }
 
 .dropdown-toggle {
     width: 100%;
 }
 
+.dropdown-toggle a:hover {
+    color: #30C5FF;
+}
+
+.btn:hover {
+    color: #30C5FF;
+    background-color: #381A46;
+    
+}
+
+.btn a:hover {
+    color: #30C5FF;
+}
+
+.btn-footer:hover {
+    color: #381A46;
+    background-color: #30C5FF;
+}
+
+.btn-footer a:hover {
+    color: #381A46;
+}
 
 /* Media Query -  */
 @media (min-width: 576px) { }
