@@ -50,16 +50,16 @@ input {
     background-color: #21F383;
 }
 
-/* #section-footer {
+#section-footer {
     background-color: #381A46;
     color: #EEEEA2;
     margin-top: 50px;
-} */
+}
 
-/* #section-footer h5,
+#section-footer h5,
 #section-footer p {
     color: #EEEEA2;
-} */
+}
 
 /* Cards */
 
@@ -83,7 +83,7 @@ input {
     font-family: "Fredoka", sans-serif;
     color: #381A46;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    max-width: 90%;
 }
 
 .card-body {
@@ -116,6 +116,10 @@ input {
     background-color: #EEEEA2;
     color: #381A46;
     text-transform: uppercase;
+}
+
+.dropdown-toggle {
+    width: 100%;
 }
 
 
