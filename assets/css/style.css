@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* * {
+    border: 1px solid red;
+} */
+
+/* Root */
+:root {
+    --blue: #30C5FF;
+    --green: #21F383;
+    --pink: #E4B7E5;
+    --purple: #381A46;
+    --yellow: #EEEEA2;
+}
+
+/* Base styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Prompt", sans-serif;
+    color: var(--purple)
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+/* Headings */
+.heading {
+    font-family: "Fredoka", sans-serif;
+    color: var(--purple);
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+/* Fonts */
+
+.btn {
+  font-family: "Fredoka", sans-serif;
+  color: var(--purple);
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+} */
+
+a {
+  color: var(--purple);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+/* Color */
+
+#hero {
+  background-color: var(--blue);
+}
+
+input {
+  caret-color: var(--purple);
+}
+
+.input-radio {
+  accent-color: var(--purple);
+}
+
+/* Sections*/
+
+#section-policies {
+  background-color: var(--pink);
+}
+
+#section-footer {
+  background-color: var(--purple);
+  color: var(--yellow);
+}
+
+footer h5,
+footer p {
+  color: var(--yellow);
+}
+
+footer a {
+  color: var(--green);
+}
+
+/* Cards */
+
+.card-1 img {
+  background-color: var(--blue);
+}
+
+.card-2 img {
+  background-color: var(--pink);
+}
+
+.card-3 img {
+  background-color: var(--green);
+}
+
+.card-body {
+  background-color: var(--yellow);
+}
+
+/* Buttons */
+
+.btn-purple {
+  background-color: var(--purple);
+  color: var(--green);
+}
+
+.btn-purple a {
+  color: var(--green);
+}
+
+.btn-green,
+.btn-footer {
+  background-color: var(--green);
+}
+
+.btn-pink {
+  background-color: var(--pink);
+}
+
+.dropdown-toggle {
+  width: 100%;
+}
+
+.dropdown-toggle a:hover {
+  color: var(--blue);
+}
+
+.btn:hover {
+  color: var(--blue);
+  background-color: var(--purple);
+}
+
+.btn a:hover {
+  color: var(--blue);
+}
+
+.btn-footer:hover {
+  color: var(--purple);
+  background-color: var(--blue);
+}
+
+.btn-footer a:hover {
+  color: var(--purple);
+}
+
+/* Media Query -  */
+@media (min-width: 576px) {
+}
+
+/* Media Query - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Media Query - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  font-size: 1.5rem;
+  color: #333; /* Adjust color as needed */
+}
+
+@media (max-width: 768px) {
+  /* Collapse the navbar on smaller screens */
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 1rem 0.5rem;
+  }
+}
