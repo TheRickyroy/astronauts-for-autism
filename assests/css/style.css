@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General Rules */
+
+li {
+    list-style: none;
+}
+
+/* Fonts */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fredoka", sans-serif;
+    color: #381A46;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "Prompt", sans-serif;
+    color: #381A46;
+}
+
+/* Color */
+
+#hero {
+    background-color: #30C5FF;
+}
+
+input { 
+    caret-color: #381A46;
+}
+
+.input-radio {
+    accent-color: #381A46;
+}
+
+/* Sections*/
+
+
+
+.section-info-cards h2 {
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+#section-policies {
+    background-color: #21F383;
+}
+
+/* #section-footer {
+    background-color: #381A46;
+    color: #EEEEA2;
+    margin-top: 50px;
+} */
+
+/* #section-footer h5,
+#section-footer p {
+    color: #EEEEA2;
+} */
+
+/* Cards */
+
+.card { 
+    max-width: 40%;
+}
+
+.card-1 img {
+    background-color: #30C5FF;
+}
+
+.card-2 img {
+    background-color: #E4B7E5;
+}
+
+.card-3 img {
+    background-color: #21F383;
+}
+
+.card-title {
+    font-family: "Fredoka", sans-serif;
+    color: #381A46;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.card-body {
+    background-color: #EEEEA2;
+}
+
+.card-text {
+    color: #381A46;
+}
+
+/* Buttons */
+
+.btn-purple {
+    background-color: #381A46;
+    color: #21F383;
+    text-transform: uppercase;
+}
+
+.btn-green {
+    background-color: #21F383;
+    text-transform: uppercase;
+}
+
+.btn-pink {
+    background-color: #E4B7E5;
+    text-transform: uppercase;
+}
+
+.btn-yellow {
+    background-color: #EEEEA2;
+    color: #381A46;
+    text-transform: uppercase;
+}
+
+
+/* Media Query -  */
+@media (min-width: 576px) { }
+
+/* Media Query - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Media Query - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }

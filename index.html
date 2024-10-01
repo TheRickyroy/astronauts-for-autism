@@ -1,11 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronauts for Autism</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="icon" sizes="" href="/assets/favicon/android-chrome-192x192.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/550fe83872.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css"/>
+    <title>Astronauts For Autism | Launchpad For Learning</title>
+  </head>
+  <body>
+
+    <!-- Nav -->
+    <nav id="navbar" class="navbar bg-body-tertiary px-3 mb-3">
+      <div class="container">
+        <h2 class="navbar-brand-text">Astronauts for Autism</h2>
+      </div>    
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#child-section">Group Sessions</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Safeguarding</a>
+          <ul class="dropdown-menu">
+            <li><a class="nav-link" href="#section-policies">Our Policies</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="nav-link" href="#section-child">I'm A Child</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="nav-link" href="#section-parent">I'm A Parent</a></li>
+          </ul>
+        </li>
+        <li></li>
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero  -->
+    <div class="px-4 py-5 my-5 text-center" id="hero">
+      <img class="d-block mx-auto mb-4" src="/assets/images/bear.webp" alt="" width="30%" height="30%">
+      <h1 class="display-5 fw-bold">Safeguarding Children</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Ensuring safety and well-being</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-green btn-lg px-4 gap-3"><a href="#section-child" alt="I Am A Child Button">I'm A Child</a></button>
+          <button type="button" class="btn btn-pink btn-lg px-4"><a href="#section-parent" alt="I Am A Parent Button">I'm A Parent</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Children -->
+    <section class="section-info-cards" id="section-child">
+      <div class="container-fluid text-left">
+      <div class="row">
+        <h2 class="text-center">For Astronauts</h2>
+        <div class="col-4">
+          <div class="card card-1" style="max-width: 32rem;">
+            <img src="/assets/images/help.webp" class="card-img-top" alt="Astronaut Neeeding Help">
+            <div class="card-body">
+              <h3 class="card-title">Need Help?</h3>
+              <p class="card-text">Whether big or small, help is always available.</p>
+              <p class="card-text">Speak to any member of team today.</p>
+              <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#talkModal">
+                Talk With Us
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card card-2" style="max-width: 32rem;">
+            <img src="/assets/images/overwhelmed.webp" class="card-img-top" alt="Overwhelmed Astronaut">
+            <div class="card-body">
+              <h3 class="card-title">Overwhelmed?</h3>
+              <p class="card-text">That's OK, you can take a break at any time.</p>
+              <p class="card-text">Let's try one of the techniques we have learned together.</p>
+                <div class="dropdown">
+                  <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Calming Techniques
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=ZfMA0YA1IVA" target="_blank">Box Breathing</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=H9Hnisaqlns" target="_blank">Butterfly Hug</a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=ORRdf_nLc_I" target="_blank">Shake Those Icky Feelings</a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card card-3" style="max-width: 32rem;">
+            <img src="/assets/images/bad.webp" class="card-img-top" alt="Astronaut Behaving Badly">
+            <div class="card-body">
+              <h3 class="card-title">Bad Behaviour?</h3>
+              <p class="card-text">Have you been made to feel uncomfortable, or scared?</p>
+              <p class="card-text">Speak to a member of team you trust.</p>
+              <a href="#" class="btn btn-purple">Let Us Know</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Policies -->
+    <section id="section-policies">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="/assets/images/policies.webp" alt="Autronaut Writing In Book" width="30%" height="30%">
+        <h1 class="display-5 fw-bold">Our Safeguarding Policies</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">We are committed to providing a safe, supportive and encouraging environment 
+            for children and families that protects from harm, abuse and neglect.</p>
+            <p class="lead mb-4">Everyone deserves to feel safe, which is why safeguarding is a fundamental part 
+            of our mission here at Astronauts for Autism.</p>
+            <ul>
+              <h3>Key Policy Points</h3>
+            <li>A designated safeguarding lead (DSL) is present at all sessions</li>
+            <li>We provide ongoing safeguarding training</li>
+            <li>All staff are <a href="https://www.gov.uk/government/organisations/disclosure-and-barring-service" alt="Disclosure And Barring Service Open In New Tab" target="_blank">DBS</a> checked</li>
+            <li>Regular policy updates ensure we follow latest national standards</li>
+          </ul>
+            <p>For more information please speak to a member of our team, or alternatively, 
+            you can download a PDF of our Safeguarding Policy below. </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-yellow btn-lg px-4"><a href="#" alt="Safeguarding Policies PDF Download">Safeguarding Policy</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Parents -->
+  <section class="section-info-cards" id="section-parent">
+    <div class="container-fluid text-left">
+      <div class="row">
+        <h2 class="text-center">For Parents</h2>
+        <div class="col-4">
+          <div class="card card-2" style="max-width: 32rem;">
+            <img src="/assets/images/phone.webp" class="card-img-top" alt="Astronaut Neeeding Help">
+            <div class="card-body">
+              <h3 class="card-title">Report Concern</h3>
+              <p class="card-text">Are you concerned about a child's safety or well-being?</p>
+              <p class="card-text">Please speak to a memeber of our team.</p>
+              <p class="card-text">If you believe a child is in danger, call 999 immediately.</p>
+                 </p>
+              <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#talkModal">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card card-3" style="max-width: 32rem;">
+            <img src="/assets/images/resources.webp" class="card-img-top" alt="Overwhelmed Astronaut">
+            <div class="card-body">
+              <h3 class="card-title">Resources</h3>
+              <p class="card-text">As well as our weekly guided sessions, we are able to offer additional resources to ensure the well-being of your child and family.</p>
+              <p class="card-text">If you are unable to find the resources and information you need below, please reach out to a member of the AFA team.</p>
+                <div class="dropdown">
+                  <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Resources
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
+                    <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
+                    <li><a class="dropdown-item" href="#" target="_blank">Resource</a></li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card card-1" style="max-width: 32rem;">
+            <img src="/assets/images/robot.webp" class="card-img-top" alt="Astronaut Behaving Badly">
+            <div class="card-body">
+              <h3 class="card-title">Additional Support</h3>
+              <p class="card-text">Do you or your family require additional support?</p>
+              <p class="card-text">The AFA team are here to help.</p>
+              <p class="card-text">Alternatively, please contact a trusted organisation below.</p>
+              <div class="dropdown">
+                <button class="btn btn-purple dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Support Services
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#" target="_blank">Support Contact</a></li>
+                  <li><a class="dropdown-item" href="#" target="_blank">Support Contact</a></li>
+                  <li><a class="dropdown-item" href="#" target="_blank">Support Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- Footer -->
+<section id="section-footer"> 
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6">
+        <h5>Astronauts for Autism</h5>
+        <p><strong>Launchpad for Learning</strong></p>
+        <p>Our mission at AFA it to provide a safe, supportive and encouraging environment to cultivate learning and socialisaing for children and their families.</p>
+        <p>We offer weekly guided group sessions with our expert team.</p>
+        <button type="button" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#talkModal">
+          Book Your Spot Today
+        </button>
+      </div>
+      <div class="col-3">
+        <h5>Links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+          <h5>Contact Us</h5>
+          <ul>
+            <li>Tel: 01234 567 890</li>
+            <li>Email: <a href="mailto:someone@example.com">information@afa.fictional</a></li>
+          </ul>
+          <button type="button" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#talkModal">
+            Contact Us
+          </button>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2024 <a href="index.html" alt="Home Page">Astronauts for Autism</a> All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="https://www.youtube.com/"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+</section>
+
+    <!-- Modals -->
+    <div class="modal fade" id="talkModal" tabindex="-1" aria-labelledby="talkModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="talkModalLabel">Talk With Us</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">  
+            <form>
+              <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="text" id="name" class="form-control" />
+                  <label class="form-label" for="name">Name</label>
+              </div>
+              <div data-mdb-input-init class="form-outline mb-4">
+                  <input type="email" id="email" class="form-control" />
+                  <label class="form-label" for="email">Email address</label>
+              </div>
+              <div data-mdb-input-init class="form-outline mb-4">
+                  <textarea id="textarea" rows="4" class="form-control"></textarea>
+                  <label class="form-label" for="textarea">Your message</label>
+              </div>
+              <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="checkbox" />
+                  <label class="form-check-label" for="checkbox">
+                      I wish to remain anonymous
+                  </label>
+              </div>
+              <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block">Send</button>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
 </html>
