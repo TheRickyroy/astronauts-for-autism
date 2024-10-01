@@ -85,16 +85,19 @@ input {
   color: var(--yellow);
 }
 
-footer h5,
-footer p {
-  color: var(--yellow);
-}
-
 footer a {
   color: var(--green);
 }
 
 /* Cards */
+
+.card {
+    min-width: 300px;
+}
+
+.card-body {
+    background-color: var(--yellow);
+  }
 
 .card-1 img {
   background-color: var(--blue);
@@ -106,10 +109,6 @@ footer a {
 
 .card-3 img {
   background-color: var(--green);
-}
-
-.card-body {
-  background-color: var(--yellow);
 }
 
 /* Buttons */
@@ -136,17 +135,9 @@ footer a {
   width: 100%;
 }
 
-.dropdown-toggle a:hover {
-  color: var(--blue);
-}
-
 .btn:hover {
   color: var(--blue);
   background-color: var(--purple);
-}
-
-.btn a:hover {
-  color: var(--blue);
 }
 
 .btn-footer:hover {
@@ -154,42 +145,21 @@ footer a {
   background-color: var(--blue);
 }
 
-.btn-footer a:hover {
-  color: var(--purple);
-}
-
 /* Media Query -  */
 @media (min-width: 576px) {
+.footer-links {
+        flex-direction: row;
+        align-items: center;
+      }
 }
 
 /* Media Query - Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+.footer-links {
+        flex-direction: row;
+      }
 }
 
 /* Media Query - Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-}
-
-.navbar-toggler {
-  border: none;
-  outline: none;
-  padding: 0;
-  background-color: transparent;
-}
-
-.navbar-toggler-icon {
-  font-size: 1.5rem;
-  color: #333; /* Adjust color as needed */
-}
-
-@media (max-width: 768px) {
-  /* Collapse the navbar on smaller screens */
-  .navbar-nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-nav .nav-link {
-    padding: 1rem 0.5rem;
-  }
 }
