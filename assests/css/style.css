@@ -2,24 +2,37 @@
 
 /* General Rules */
 
+/* * {
+    border: 1px solid red;
+} */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
 li {
     list-style: none;
+    margin-bottom: 16px;
 }
 
 /* Fonts */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .btn {
     font-family: "Fredoka", sans-serif;
     color: #381A46;
-}
-
-h1 {
+    margin-bottom: 0px;
     text-transform: uppercase;
 }
 
 p {
     font-family: "Prompt", sans-serif;
     color: #381A46;
+}
+
+a {
+    color: #381A46;
+    text-decoration: none;
 }
 
 /* Color */
@@ -38,34 +51,25 @@ input {
 
 /* Sections*/
 
-
-
-.section-info-cards h2 {
-    text-transform: uppercase;
-    padding-bottom: 2rem;
-    font-size: 3rem;
-}
-
 #section-policies {
-    background-color: #21F383;
+    background-color: #E4B7E5;
 }
 
 #section-footer {
     background-color: #381A46;
     color: #EEEEA2;
-    margin-top: 50px;
 }
 
-#section-footer h5,
-#section-footer p {
+footer h5,
+footer p {
     color: #EEEEA2;
 }
 
-/* Cards */
-
-.card { 
-    max-width: 40%;
+footer a {
+    color: #21F383;
 }
+
+/* Cards */
 
 .card-1 img {
     background-color: #30C5FF;
@@ -79,19 +83,8 @@ input {
     background-color: #21F383;
 }
 
-.card-title {
-    font-family: "Fredoka", sans-serif;
-    color: #381A46;
-    text-transform: uppercase;
-    max-width: 90%;
-}
-
 .card-body {
     background-color: #EEEEA2;
-}
-
-.card-text {
-    color: #381A46;
 }
 
 /* Buttons */
@@ -99,23 +92,22 @@ input {
 .btn-purple {
     background-color: #381A46;
     color: #21F383;
-    text-transform: uppercase;
+}
+
+.btn-purple a {
+    color: #21F383;
 }
 
 .btn-green {
     background-color: #21F383;
-    text-transform: uppercase;
 }
 
 .btn-pink {
     background-color: #E4B7E5;
-    text-transform: uppercase;
 }
 
 .btn-yellow {
     background-color: #EEEEA2;
-    color: #381A46;
-    text-transform: uppercase;
 }
 
 .dropdown-toggle {
@@ -131,3 +123,28 @@ input {
 
 /* Media Query - Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { }
+
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    font-size: 1.5rem;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  @media (max-width: 768px) {
+    /* Collapse the navbar on smaller screens */
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 1rem 0.5rem;
+    }
+  }

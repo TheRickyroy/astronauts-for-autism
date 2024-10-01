@@ -14,10 +14,16 @@
   <body>
 
     <!-- Nav -->
-    <nav id="navbar" class="navbar bg-body-tertiary px-3 mb-3">
+    <nav id="navbar" class="navbar bg-body-tertiary">
       <div class="container">
         <h2 class="navbar-brand-text">Astronauts for Autism</h2>
-      </div>    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  
+        aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+         </div>
+       
+         <div class="collapse navbar-collapse" id="navbarNav"> 
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
@@ -35,16 +41,17 @@
             <li><a class="nav-link" href="#section-parent">I'm A Parent</a></li>
           </ul>
         </li>
-        <li></li>
+        <li>
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
+    </div>
     </nav>
 
     <!-- Hero  -->
-    <div class="px-4 py-5 my-5 text-center" id="hero">
-      <img class="d-block mx-auto mb-4" src="assests/images/bear.webp" alt="" width="30%" height="30%">
-      <h1 class="display-5 fw-bold">Safeguarding Children</h1>
+    <div class="text-center pb-5" id="hero">
+      <img class="d-block mx-auto" src="assests/images/bear.webp" alt="Astronaut Holding Teddy Bear" width="30%" height="30%">
+      <h1 class="display-5 fw-bold py-3">Safeguarding Children</h1>
       <div class="col-lg-6 mx-auto">
         <p class="lead mb-4">Ensuring safety and well-being</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -55,12 +62,12 @@
     </div>
 
     <!-- Children -->
-    <section class="section-info-cards" id="section-child">
+    <section class="section-info-cards pb-5" id="section-child">
       <div class="container">
-        <h2 class="text-center">For Astronauts</h2>
+        <h2 class="text-center fs-1 py-3">For Astronauts</h2>
       <div class="row d-flex justify-content-center">
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-1" style="max-width: 32rem;">
+          <div class="card card-1">
             <img src="assests/images/help.webp" class="card-img-top" alt="Astronaut Neeeding Help">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Need Help?</h3>
@@ -73,7 +80,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-2" style="max-width: 32rem;">
+          <div class="card card-2">
             <img src="assests/images/overwhelmed.webp" class="card-img-top" alt="Overwhelmed Astronaut">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Overwhelmed?</h3>
@@ -93,7 +100,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-3" style="max-width: 32rem;">
+          <div class="card card-3">
             <img src="assests/images/bad.webp" class="card-img-top" alt="Astronaut Behaving Badly">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Bad Behaviour?</h3>
@@ -109,25 +116,25 @@
 
   <!-- Policies -->
     <section id="section-policies">
-      <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="assests/images/policies.webp" alt="Autronaut Writing In Book" width="30%" height="30%">
-        <h1 class="display-5 fw-bold">Our Safeguarding Policies</h1>
+      <div class="px-4 pb-5 text-center">
+        <img class="d-block mx-auto" src="assests/images/policies.webp" alt="Autronaut Writing In Book" width="30%" height="30%">
+        <h2 class="display-5 fw-bold py-3">Our Safeguarding Policies</h2>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">We are committed to providing a safe, supportive and encouraging environment 
+          <p class="lead">We are committed to providing a safe, supportive and encouraging environment 
             for children and families that protects from harm, abuse and neglect.</p>
-            <p class="lead mb-4">Everyone deserves to feel safe, which is why safeguarding is a fundamental part 
+            <p class="lead">Everyone deserves to feel safe, which is why safeguarding is a fundamental part 
             of our mission here at Astronauts for Autism.</p>
             <ul>
               <h3>Key Policy Points</h3>
             <li>A designated safeguarding lead (DSL) is present at all sessions</li>
             <li>We provide ongoing safeguarding training</li>
-            <li>All staff are <a href="https://www.gov.uk/government/organisations/disclosure-and-barring-service" alt="Disclosure And Barring Service Open In New Tab" target="_blank">DBS</a> checked</li>
+            <li>All staff are DBS checked</li>
             <li>Regular policy updates ensure we follow latest national standards</li>
           </ul>
             <p>For more information please speak to a member of our team, or alternatively, 
             you can download a PDF of our Safeguarding Policy below. </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-yellow btn-lg px-4"><a href="#" alt="Safeguarding Policies PDF Download">Safeguarding Policy</a></button>
+            <button type="button" class="btn btn-purple btn-lg px-4"><a href="#" alt="Safeguarding Policies PDF Download">Safeguarding Policy</a></button>
           </div>
         </div>
       </div>
@@ -135,19 +142,18 @@
 
   <!-- Parents -->
 
-  <section class="section-info-cards" id="section-parent">
+  <section class="section-info-cards pb-5" id="section-parent">
     <div class="container">
-      <h2 class="text-center">For Family</h2>
+      <h2 class="text-center fs-1 py-5">For Family</h2>
     <div class="row d-flex justify-content-center">
       <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-2" style="max-width: 32rem;">
+          <div class="card card-2">
             <img src="assests/images/phone.webp" class="card-img-top" alt="Astronaut On Phone">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Report Concern</h3>
               <p class="card-text">Are you concerned about a child's safety or well-being?</p>
               <p class="card-text">Please speak to a memeber of our team.</p>
               <p class="card-text">If you believe a child is in danger, call 999 immediately.</p>
-                 </p>
               <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#talkModal">
                 Contact Us
               </button>
@@ -155,7 +161,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-3" style="max-width: 32rem;">
+          <div class="card card-3">
             <img src="assests/images/resources.webp" class="card-img-top" alt="Astronaut In Cardboard Box">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Resources</h3>
@@ -175,7 +181,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="card card-1" style="max-width: 32rem;">
+          <div class="card card-1">
             <img src="assests/images/robot.webp" class="card-img-top" alt="Astronaut Being Assisted By Small Robot">
             <div class="card-body d-flex flex-column justify-content-between">
               <h3 class="card-title">Additional Support</h3>
@@ -202,12 +208,12 @@
 
  <!-- Footer -->
 <section id="section-footer"> 
-<div class="container">
-  <footer class="py-5">
-    <div class="row">
+<div class="container pt-3">
+  <footer>
+    <div class="row footer-row pb-3">
       <div class="col-6">
         <h5>Astronauts for Autism</h5>
-        <p><strong>Launchpad for Learning</strong></p>
+        <p>Launchpad for Learning</p>
         <p>Our mission at AFA it to provide a safe, supportive and encouraging environment to cultivate learning and socialisaing for children and their families.</p>
         <p>We offer weekly guided group sessions with our expert team.</p>
         <button type="button" class="btn btn-yellow" data-bs-toggle="modal" data-bs-target="#talkModal">
@@ -235,7 +241,7 @@
           </button>
       </div>
     </div>
-    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <div class="d-flex flex-column flex-sm-row justify-content-between pt-1">
       <p>&copy; 2024 <a href="index.html" alt="Home Page">Astronauts for Autism</a> All rights reserved.</p>
       <ul class="list-unstyled d-flex">
         <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
