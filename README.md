@@ -154,6 +154,9 @@ Before implementing the images into the project I used [Affinity Photo 2](https:
 ![Astronaut Images](/documentation/images/images.gif)
 - Astronaut Artwork: Designed by [Freepik](http://www.freepik.com/) - Following [Attributation Policy](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US)
 
+During my process of seeking out feedback for UX my decision to include the astronaut character based up on the anonymity and thus inclusivity was confirmed to be a positive one.
+![Mobile Wireframe](/documentation/images/space_mumma.png)
+
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
@@ -238,7 +241,9 @@ The additional [research](/documentation/research.md) has been compiled into lis
 
 ### Acknowledgements
 
-- Rhiannon and Jessie for for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
+- Rhiannon and Jessie for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
+- Julia for providing feedback on design and navigation and also identifying typos.
+- Space_Mumma for providing feedback on design and also inadvertently corroborating my decision to use the astronaut character for this project.
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
