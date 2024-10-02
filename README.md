@@ -34,8 +34,6 @@ The live project can found here: <a href="https://therickyroy.github.io/astronau
     - [Footer](#footer)
     - [Links and Buttons](#links-and-buttons)
   - [Resnposive Design](#responsive-design)
-  - [Future Implementations](#future-implementations)
-  - [Accessibility](#accessibility)
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
@@ -240,23 +238,17 @@ Though it took some experimentation and troubleshooting, I have been able to cre
 This has proven to be a very valuable learning experience in the use of frameworks.
 As a result of my debugging within Dev Tools in order to identify and resolve responsiveness issues I believe I have a much greater understanding of how to adpat Bootstrap for use within future projects. 
 
-![Am I Responsive](/documentation/images/responsive.webp)
-![Mobile](/documentation/images/mobile.webp)
-![ipad Mini](/documentation/images/ipad-mini.webp)
-![Dektop](/documentation/images/desktop.webp)
+During testing it was apparent that `display-6` was too large for the navbar brand text so this was removed to increase responsivity.
 
-
-<hr>
-<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
-
-## Future Implementations
-
-- The responsiveness of the navigation bar requires slight adjustment on mobile as the brand text is slightly too large.
-- Within future implenetations I would opt to include additional resources such as embedded video content as oppose to external links.
-- 
+[Am I Responsive](https://ui.dev/amiresponsive?url=https://therickyroy.github.io/astronauts-for-autism/)<br>
+![Am I Responsive](/documentation/images/responsive.webp)<br>
+![Mobile](/documentation/images/mobile.webp)<br>
+![ipad Mini](/documentation/images/ipad-mini.webp)<br>
+![Dektop](/documentation/images/desktop.webp)<br>
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
 
 ## Built With
 
@@ -308,6 +300,19 @@ Additional information on the deployment process can be found on the official [G
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
 
 ## Testing
+
+Testing and validation os the website was carried out throughout the course of the project.
+
+This included regular debugging and testing using the Dev Tools as ptovided within Chrome Browser.
+
+[HTML Validation](https://validator.w3.org/)<br>
+![HTML Validation](/documentation/images/validation-html.webp)
+
+[CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
+![CSS Validation](/documentation/images/validation-css.webp)
+
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)<br>
+![Lighthouse](/documentation/images/lighthouse.webp)
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
