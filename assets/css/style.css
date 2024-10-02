@@ -149,6 +149,10 @@ footer a {
   background-color: var(--blue);
 }
 
+.btn-social {
+  color: var(--green);
+}
+
 /* Media Query -  */
 @media (min-width: 576px) {
 .footer-links {
