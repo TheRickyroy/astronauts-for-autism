@@ -16,7 +16,7 @@
 /* Base styles */
 
 body {
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     font-family: "Prompt", sans-serif;
     color: var(--purple)
@@ -32,16 +32,23 @@ li {
   margin-bottom: 16px;
 }
 
-/* Headings */
-.heading {
-    font-family: "Fredoka", sans-serif;
-    color: var(--purple);
-    margin: 0;
-    text-transform: uppercase;
+input {
+  caret-color: var(--purple);
+}
 
+.input-radio {
+  accent-color: var(--purple);
 }
 
 /* Fonts */
+
+.heading {
+  font-family: "Fredoka", sans-serif;
+  color: var(--purple);
+  margin: 0;
+  text-transform: uppercase;
+
+}
 
 .btn {
   font-family: "Fredoka", sans-serif;
@@ -60,21 +67,12 @@ a:hover {
   color: var(--blue);
 }
 
-/* Color */
+/* Sections*/
 
 #hero {
   background-color: var(--blue);
+  margin-top: 144px;
 }
-
-input {
-  caret-color: var(--purple);
-}
-
-.input-radio {
-  accent-color: var(--purple);
-}
-
-/* Sections*/
 
 .section-img {
   width: 100%;
