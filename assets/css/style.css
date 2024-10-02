@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* * {
-    border: 1px solid red;
-} */
-
 /* Root */
 :root {
     --blue: #30C5FF;
@@ -151,23 +147,4 @@ footer a {
 
 .btn-social {
   color: var(--green);
-}
-
-/* Media Query -  */
-@media (min-width: 576px) {
-.footer-links {
-        flex-direction: row;
-        align-items: center;
-      }
-}
-
-/* Media Query - Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-.footer-links {
-        flex-direction: row;
-      }
-}
-
-/* Media Query - Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
 }
