@@ -28,6 +28,12 @@ The live project can found here: <a href="https://therickyroy.github.io/astronau
       - [Wireframes](#wireframes)
 * [Features](#features)
   - [General Features](#general-features)
+    - [Navigation and Hero Section](#navigation-and-hero-section)
+    - [Bootstrap Cards](#bootstrap-cards)
+    - [Policies Section](#policies-section)
+    - [Footer](#footer)
+    - [Links and Buttons](#links-and-buttons)
+  - [Resnposive Design](#responsive-design)
   - [Future Implementations](#future-implementations)
   - [Accessibility](#accessibility)
 * [Built With](#built-with)
@@ -89,7 +95,7 @@ The artwork and color selection thus played a integral part in the design of thi
 To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
 Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
 
-**Main Palette**
+### Main Palette
 
 - Deep Sky Blue `#30C5FF` `--blue`
 - Pink Lavender `#E4B7E5` `--pink`
@@ -167,6 +173,87 @@ During my process of seeking out feedback for UX my decision to include the astr
 ## Features
 
 ### General Features
+
+In order to fulfil the criteria the page consists of various sectioned information each with a variety of links, resources and other elements that contribute to a positive user experience. 
+
+Upon coding the project, receiving feedback and implementing the [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) the features and design shifted slightly from the original wireframe.
+
+Some key adjustments: 
+
+- The inclusion of buttons within the hero section.<br>
+This was done to reflect the clearly definied section of content and provide the user an easy navigation link to the section they would most likely be seeking to interact with. 
+
+- Opting not centre all content within their respective parents.<br>
+This decision was made as a result of personal reflection and user feedback to provide a more enjoyable user experience.
+
+#### Navigation and Hero Section
+
+I chose to use a bold and welcoming hero section for the start of the page using the [Bootstrap Jumbotron](https://getbootstrap.com/docs/5.3/examples/jumbotron/)
+
+This gives a clear indication of the content as well as imagery that links to the brand and identity of the organisation.
+
+Within this section I have included two buttons that present easy to navigate options for the user to access the relevant section of the page for their needs.
+
+The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience.
+
+![Navigation & Hero](/documentation/images/nav-and-hero.webp)
+
+#### Bootstrap Cards
+
+I opted to utilise the [Bootstrap Card](https://getbootstrap.com/docs/5.3/components/card/) feature for the main content of the page as this allowed for a clean organisation of the information. 
+
+Within these sections I have also opted to provide additional resources, links and access to contact modals via buttons for ease.
+
+For balance I also gave the cards a consistent height by adding the `h-100` class.
+
+![Cards](/documentation/images/cards.webp)
+
+#### Policies Section
+
+Mirroring the design of the hero section, I have included a safeguarding policies section for the organisation giving basic details and providing a link to download the policy in full. 
+
+This section not only serves as a vital area for information, but also as a visual divider between the card sections aimed at parents and their families. 
+
+![Policies Section](/documentation/images/policies.webp)
+
+#### Footer
+
+For the footer again I implemented a [Bootstrap](https://getbootstrap.com/docs/5.3/examples/footers/) component.
+
+Here I have used the bold contrast of the purple to distinguish it apart from the rest of the page allowing it to be easily identifiable across the whole website.
+
+The information provided in this section is considered somewhat standard and provides for a user experience that is easy to understand. 
+
+#### Links and Buttons
+
+Although the page used a variety of colours for buttons to adhere to contrast requirements, each link and button does maintain a level of consistency by utilising the `var(--blue)` as part of it's `:hover` status in some way.
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+### Responsive Design
+
+Utilising the [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) allowed for an implementation that is responsive without the need for additional CSS or media queries.
+
+Though it took some experimentation and troubleshooting, I have been able to create a page that is fully responsive to modern standards.
+
+This has proven to be a very valuable learning experience in the use of frameworks.
+As a result of my debugging within Dev Tools in order to identify and resolve responsiveness issues I believe I have a much greater understanding of how to adpat Bootstrap for use within future projects. 
+
+![Am I Responsive](/documentation/images/responsive.webp)
+![Mobile](/documentation/images/mobile.webp)
+![ipad Mini](/documentation/images/ipad-mini.webp)
+![Dektop](/documentation/images/desktop.webp)
+
+
+<hr>
+<p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
+
+## Future Implementations
+
+- The responsiveness of the navigation bar requires slight adjustment on mobile as the brand text is slightly too large.
+- Within future implenetations I would opt to include additional resources such as embedded video content as oppose to external links.
+- 
 
 <hr>
 <p align="right"><a href="#astronauts-for-autism">Back To Top</a></p>
