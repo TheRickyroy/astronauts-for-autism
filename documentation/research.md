@@ -7,6 +7,7 @@ Though this list is by no means exhaustive, it contains those resources that wer
 ### Autism Support
 
 - [CANW - Empowering Families: Launching a New Autism Support Service for Stronger Futures](https://canw.org.uk/what-we-do/support-families/family-autism-service/)
+- [Daybreak - 7 Calming Strategies for Autism Every Parent or Guardian Should Know](https://www.daybreakis.org/news-stories/7-calming-strategies-for-autism-every-parent-or-guardian-should-know)
 - [Dimensions - Autism Friendly Gaming with Belong by GAME](https://dimensions-uk.org/get-involved/campaigns/autism-friendly-with-belong-by-game/)
 - [FullFabric - How to design visual learning resources for neurodiverse students](https://www.fullfabric.com/articles/how-to-design-visual-learning-resources-for-neurodiverse-students)
 - [Liaise - Autism Symbols: What Do They Mean?](https://liaise.com/autism-symbols-what-do-they-mean/)
@@ -26,6 +27,7 @@ Though this list is by no means exhaustive, it contains those resources that wer
 - [Childline](https://www.childline.org.uk/)
 - [Children's Safeguarding Assurance Partnership - Safeguarding info, advice & guidance](https://www.safeguardingpartnership.org.uk/)
 - [Disclosure and Barring Service - GOV.UK](https://www.gov.uk/government/organisations/disclosure-and-barring-service)
+- [Food Active - Food As A Safeguarding Issue](https://foodactive.org.uk/food-as-a-safeguarding-issue-a-call-to-action/)
 - [Human Focus - Safeguarding](https://humanfocus.co.uk/blog/what-is-safeguarding/)
 - [Lancashire County Council - Tell us if you are worried about a child](https://www.lancashire.gov.uk/children-education-families/keeping-children-safe/tell-us-if-you-are-worried-about-a-child/)
 - [Lancashire & South Cumbria NHS Foundation Trust - Safeguarding](https://www.lscft.nhs.uk/about-us/safeguarding)
@@ -57,11 +59,12 @@ Though this list is by no means exhaustive, it contains those resources that wer
 
 - [BrightenUp! Kids - 6-Minute Self-Soothing Meditation For Children Using The Butterfly Hug Technique.](https://www.youtube.com/watch?v=H9Hnisaqlns)
 - [BrightenUp! Kids - 7-Minute Emotion Regulating Activity To Help Kids Calm Down!](https://www.youtube.com/watch?v=ORRdf_nLc_I)
+- [Everyday Speech - Box Breathing Practice - YouTube](https://www.youtube.com/watch?v=ZfMA0YA1IVA)
 - [Humanitarian Academy - Child Safeguarding](https://www.youtube.com/watch?v=Pg8xB5spnb4)
 - [NAS - What is Autism?](https://www.youtube.com/watch?v=Lk4qs8jGN4U&t=31s)
 
 <hr>
-<p align="right"><a href="#additional-research">Back To Top</a></p>
+<p align="right"><a href="#additional-research-links">Back To Top</a></p>
 
 ## Git & GitHub
 
@@ -72,9 +75,10 @@ Though this list is by no means exhaustive, it contains those resources that wer
 - [freeCodeCamp - How to Write Better Git Commit Messages – A Step-By-Step Guide](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
 - [GitHub Docs - About GitHub and Git](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
 - [Kevin Stratvert - Git and GitHub Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=tRZGeaHPoaw&t=1394s)
+- [Medium - How to Write Good Git Commit Messages like a pro](https://medium.com/front-end-weekly/how-to-write-good-git-commit-messages-like-a-pro-2c12f01569d9)
 
 <hr>
-<p align="right"><a href="#additional-research">Back To Top</a></p>
+<p align="right"><a href="#additional-research-links">Back To Top</a></p>
 
 ## README Documentation
 
@@ -99,3 +103,6 @@ Though this list is by no means exhaustive, it contains those resources that wer
 - [Hatica - Best Practices For An Eye Catching GitHub Readme](https://www.hatica.io/blog/best-practices-for-github-readme/)
 - [Kera Cudmore - Code Institute - Creating Your First README](https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g35f391192_00)
 - [StyleGuide - Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html)
+
+<hr>
+<p align="right"><a href="#additional-research-links">Back To Top</a></p>

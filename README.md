@@ -91,7 +91,11 @@ Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe]
 
 **Main Palette**
 
-Deep Sky Blue #30C5FF | Pink Lavender #E4B7E5 | Russian Violet #381A46 | Spring Green #21F383 | Vanilla #EEEEA2
+- Deep Sky Blue `#30C5FF` `--blue`
+- Pink Lavender `#E4B7E5` `--pink`
+- Russian Violet `#381A46` `--purple`
+- Spring Green `#21F383` `--green`
+- Vanilla `#EEEEA2` `--yellow`
 
 ![Color Contrast Checker Results](/documentation/images/color-contrast.gif)
 
@@ -226,7 +230,17 @@ Additional information on the deployment process can be found on the official [G
 ### Code
 
 Project and primary learning supplied by [Code Institute](https://codeinstitute.net/ie/)<br>
-Supplemental learning resources:
+Supplemental learning resources directly used / referenced within the project:
+
+- 
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
+- [Bootstrap 5 Crash Course Tutorial #9 - Navbars - YouTube](https://www.youtube.com/watch?v=7AT1X9Z41sA&t=677s)
+- [CSS Variables - The var() function](https://www.w3schools.com/css/css3_variables.asp)
+- [Gemini](https://gemini.google.com) as a learning tool, no code was directly used
+- [Make cards same height side-by-side in Bootstrap 5 - YouTube](https://www.youtube.com/watch?v=wolSRMGJ-Ls)
+- [Mozilla - mdn web docs](https://developer.mozilla.org/)
+
+All additional sources that complemented my learning can be round within additional [research](/documentation/research.md).
 
 ### Content Research
 
