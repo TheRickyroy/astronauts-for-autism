@@ -2,20 +2,19 @@
 
 /* Root */
 :root {
-    --blue: #30C5FF;
-    --green: #21F383;
-    --pink: #E4B7E5;
-    --purple: #381A46;
-    --yellow: #EEEEA2;
+  --blue: #30c5ff;
+  --green: #21f383;
+  --pink: #e4b7e5;
+  --purple: #381a46;
+  --yellow: #eeeea2;
 }
 
 /* Base styles */
-
 body {
-    margin-top: 0;
-    padding: 0;
-    font-family: "Prompt", sans-serif;
-    color: var(--purple)
+  margin-top: 0;
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+  color: var(--purple);
 }
 
 ul {
@@ -37,13 +36,11 @@ input {
 }
 
 /* Fonts */
-
 .heading {
   font-family: "Fredoka", sans-serif;
   color: var(--purple);
   margin: 0;
   text-transform: uppercase;
-
 }
 
 .btn {
@@ -52,7 +49,7 @@ input {
   margin-bottom: 0px;
   text-transform: uppercase;
   font-weight: 500;
-} */
+}
 
 a {
   color: var(--purple);
@@ -64,7 +61,6 @@ a:hover {
 }
 
 /* Sections*/
-
 #hero {
   background-color: var(--blue);
   margin-top: 72px;
@@ -90,14 +86,13 @@ footer a {
 }
 
 /* Cards */
-
 .card {
-    min-width: 300px;
+  min-width: 300px;
 }
 
 .card-body {
-    background-color: var(--yellow);
-  }
+  background-color: var(--yellow);
+}
 
 .card-1 img {
   background-color: var(--blue);
@@ -112,7 +107,6 @@ footer a {
 }
 
 /* Buttons */
-
 .btn-purple {
   background-color: var(--purple);
   color: var(--green);
